@@ -1,0 +1,51 @@
+{
+  "name": "orderbook-3d-visualizer",
+  "version": "1.0.0",
+  "description": "3D Cryptocurrency Orderbook Visualization with Real-time Data",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@react-three/fiber": "^8.15.0",
+    "@react-three/drei": "^9.88.0",
+    "@react-spring/three": "^9.7.0",
+    "three": "^0.158.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/three": "^0.158.0",
+    "eslint": "^8.52.0",
+    "eslint-config-next": "^14.0.0",
+    "jest": "^29.7.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/jest-dom": "^6.1.0",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "orderbook",
+    "3d-visualization",
+    "threejs",
+    "react",
+    "nextjs",
+    "websocket",
+    "real-time",
+    "trading"
+  ],
+  "author": "Smita",
+  "license": "MIT"
+}
