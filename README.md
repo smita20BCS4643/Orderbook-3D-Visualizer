@@ -85,3 +85,57 @@ Visit: http://localhost:3000
 ![Demo](https://user-images.githubusercontent.com/your-gif-path.gif)
 
 
+
+## 🎮 Usage
+
+### Control Panel
+
+- **Trading Venues**: Toggle visibility of different exchanges  
+- **View Mode**: Switch between real-time and historical data  
+- **Time Range**: Select from 1 minute, 5 minutes, 15 minutes, or 1 hour intervals  
+- **Filters**: Set minimum quantity thresholds for order visibility  
+- **Pressure Zone Highlighting**: Toggle visualization of high-volume areas  
+- **Auto Rotate**: Enable/disable automatic camera rotation  
+
+### 3D Interaction
+
+#### Mouse Controls
+- Left click + drag: Rotate view  
+- Right click + drag: Pan view  
+- Scroll wheel: Zoom in/out  
+
+#### Touch Controls
+- Pinch to zoom  
+- Drag to rotate (mobile/tablet)
+
+#### Hover Effects
+- Hover over bars to see detailed order information
+
+### Visual Elements
+
+- **Green Bars**: Bid orders (buy orders)  
+- **Red Bars**: Ask orders (sell orders)  
+- **Glowing Bars**: Pressure zones with high order concentration  
+- **Grid System**: 3D grid for spatial reference  
+- **Axes Labels**: Clear labeling of Price, Quantity, and Time dimensions  
+
+---
+
+## 📊 Data Sources
+
+### Primary Data Source
+
+- **Binance WebSocket API**: Real-time orderbook depth data for BTC/USDT  
+- **Endpoint**: `wss://stream.binance.com:9443/ws/btcusdt@depth20@100ms`  
+- **Update Frequency**: 100ms (10 times per second)
+
+### Mock Data Sources
+
+- **OKX**: Simulated orderbook data based on Binance spreads  
+- **Bybit**: Generated mock data with realistic price variations  
+- **Deribit**: Synthetic orderbook data for demonstration  
+
+---
+
+
+
